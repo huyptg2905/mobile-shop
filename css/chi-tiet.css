@@ -1,0 +1,97 @@
+/* ===== CSS RIÊNG CHO TRANG CHI TIẾT SẢN PHẨM ===== */
+
+.product-container {
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+/* Cột trái: Ảnh sản phẩm */
+.product-left {
+    float: left;
+    width: 42%;
+    text-align: center;
+}
+
+.product-left img {
+    max-width: 100%;
+    height: auto;
+    /*display: inline-block;*/
+}
+
+/* Cột phải: Thông tin & thông số */
+.product-right {
+    float: right;
+    width: 54%;
+}
+
+.product-title {
+    color: #2c3e50;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    color: #e74c3c;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+.product-right p {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Bảng thông số kỹ thuật */
+.device-detail {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.device-detail th,
+.device-detail td {
+    border: 1px solid #dddddd;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+.device-detail th {
+    width: 35%;
+    background-color: #f4f6f8;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+.device-detail td {
+    color: #333333;
+}
+
+/* Nhóm nút bấm */
+.product-action {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:first-child {
+    background-color: #e74c3c;
+    color: #ffffff;
+}
+
+.btn:last-child {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    border: 1px solid #cccccc;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
