@@ -131,3 +131,11 @@ body {
     text-align: center;
     padding: 20px;
 }
+
+/* Đánh dấu trang đang xem trên menu */
+.menu a.active,
+nav a.active {
+    color: #f39c12;
+    font-weight: bold;
+    text-decoration: underline;
+}
